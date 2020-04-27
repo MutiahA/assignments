@@ -1,0 +1,78 @@
+@media (min-width: 500px) {
+    body {
+        background-color: #d1e5f0 !important;
+    }
+}
+
+@media (max-width: 499px) {
+    body {
+        background-color: #e8edeb !important;
+    }
+}
+h1{
+  color: #40a7e3 !important;
+  text-align: center;
+  width: 1300px;
+  height: 100px;
+  padding: 30px;
+}
+h2{
+  color: #585c54 !important;
+  text-align: center;
+}
+p, h5{
+  color: #585c54 !important;
+  text-align: center;
+}
+ol li{
+  color: #ed9fe9;
+  font-weight: bold;
+  font-size: 28px;
+  font-family: sans-serif;
+}
+a{
+  color: #5d0dde !important;
+}
+a:hover{
+  color: hotpink !important;
+}
+a::before{
+  content:" Recipe:";
+  font-style: italic;
+  color: black;
+}
+.name{
+  font-weight: bold;
+}
+.row > div {
+    padding: 20px;
+}
+.News{
+  border: 3px solid black;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: serif;
+  margin: 30px;
+  padding: 80px;
+  background-color: white !important;
+  text-align: center;
+}
+button{
+  background-color: #51e81a !important;
+  border: 2px solid #51e81a;
+}
+input[type = text] {
+  background-color: #d6ded3 !important;
+}
+#bottom{
+  background-color: white;
+}
+table, th, td{
+  border: 2px solid black;
+  border-collapse: collapse;
+  width:auto;
+  height: auto;
+  text-align: center;
+  padding: 30px;
+  margin: 20px;
+}
