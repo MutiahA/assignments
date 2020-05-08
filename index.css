@@ -129,10 +129,10 @@ table, th, td {
 
 .News {
   border: 3px solid black;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   font-family: serif;
-  padding: 80px;
+  padding: 20px;
   background-color: #ebced0 !important;
   text-align: center;
 }
