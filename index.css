@@ -1,0 +1,140 @@
+body {
+  background-color: #e8edeb !important;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: #a36d71 !important;
+  }
+}
+@media screen and (min-width: 800px) {
+  body {
+    background-color: #ebced0 !important;
+  }
+}
+div {
+  text-align: center;
+}
+div h1 {
+  color: #73030e !important;
+  font-size: 35px;
+  padding: 30px;
+}
+div h2 {
+  color: #0a0a0a !important !important;
+}
+div p, div h5 {
+  color: #0a0a0a !important !important;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.cake {
+  color: #0a0a0a !important !important;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+ol li {
+  color: #73030e;
+  font-weight: bold;
+  font-size: 28px;
+  font-family: sans-serif;
+}
+
+a {
+  color: #5d0dde !important;
+}
+
+a:hover {
+  color: hotpink !important;
+}
+
+a::first-letter {
+  font-size: large;
+}
+
+.name {
+  font-weight: bold !important;
+}
+
+.row > div {
+  padding: 20px;
+}
+
+button {
+  background-color: #51e81a !important;
+  border: 2px solid #51e81a;
+}
+
+input[type=text] {
+  background-color: #d6ded3 !important;
+}
+
+#bottom {
+  font-size: 20px;
+  text-align: center;
+  font-style: oblique;
+  font-weight: lighter;
+}
+
+table, th, td {
+  border: 2px solid #ebced0 !important;
+  border-collapse: collapse;
+  width: 70%;
+  height: 70%;
+  text-align: center;
+  padding: 30px;
+  margin: 20px;
+}
+
+#tablebottom, #tabletop {
+  font-size: 30px;
+  text-align: center;
+  color: black !important;
+  font-family: sans-serif;
+}
+
+#tabletop {
+  font-weight: bolder;
+}
+
+#tablebottom {
+  font-weight: bold;
+}
+
+.navigation {
+  background-color: #d9c3d5 !important;
+  position: sticky;
+}
+
+.backg {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.centered {
+  position: absolute;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: cursive;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.News {
+  border: 3px solid black;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: serif;
+  padding: 80px;
+  background-color: #ebced0 !important;
+  text-align: center;
+}
+
+/*# sourceMappingURL=index.css.map */
